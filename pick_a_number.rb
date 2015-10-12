@@ -15,7 +15,6 @@ end
 def play_game
   puts 'Thinking of a number between 1 and 10, I will give you 5 tries to get it!'
   number = rand(1...100)
-  puts number
   win = false
   guess_taken  = 0
 
